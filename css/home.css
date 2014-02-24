@@ -1,0 +1,166 @@
+.diving-line {
+	position: relative;
+	margin-top: 50px;
+	height: 510px;
+	background: url(/img/login-dividing-line.$7164.png) 23% bottom repeat-y;
+}
+html{
+	overflow-y: scroll;
+}
+
+#wrap {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.sidebar {
+	float: left;
+	width: 265px;
+}
+
+.sidebar .section{
+	background:url(/imag/mod-bg.png) repeat;
+	border:1px solid #d9d9d9;
+	border-left:none;
+	border-top:none;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	-moz-border-bottom-left-radius:4px;
+	-moz-border-bottom-right-radius:4px;
+	box-shadow:inset 0 0 2px rgba(200,200,200,0.8);
+	margin-bottom:10px;padding-top:5px
+}
+
+.sidebar .section h2{
+	background:url(/img/sidebar-h1.png) repeat;
+	height:25px;
+	line-height:25px;
+	border-top: 1px solid #b8b8b8;
+	border-bottom:1px solid #b8b8b8;
+	margin:10px 0;
+	padding-left:30px;
+	font-size:14px;
+	color:#333;
+    box-shadow:0 1px 1px #d1d1d1
+}
+
+.sidebar .section .list-top .post{
+	height:37px;
+	line-height:37px;
+	font-size:13px;
+	padding-left:34px;
+	border-bottom:1px solid #c8c8c8;
+	color:#444;
+	margin-right:5px
+}
+
+
+
+/*main content*/
+.main{
+	margin: 0;
+	padding: 0;	
+}
+
+.main body {
+	background: #F2F2F2;
+	font-family: "Helvetica Neue", "Hiragino Sans GB", "Segoe UI", "Microsoft Yahei", "微软雅黑", Tahoma, Arial, STHeiti, sans-serif;
+  _font-family: Tahoma, Arial, Helvetica, STHeiti, sans-serif;
+	font-size: 13px;
+	line-height: 1.6;
+	color: #444;
+}
+
+.main .content {
+	width: 350px;
+	margin: 30px auto;
+	padding: 20px 60px;
+	border: 1px solid #D2D2D2;
+	-moz-box-shadow: 0 0 30px #CCC;
+	-webkit-box-shadow: 0 0 30px #CCC;
+	box-shadow: 0 0 30px #CCC;
+	background: #FFF;
+	background: -webkit-gradient(linear, left top, left 15, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 15px);
+}
+
+.main h1 {
+	margin: 0;
+	font-size: 28px;
+	font-weight: normal;
+	font-family: "Helvetica Neue", "Hiragino Sans GB", "Segoe UI", "Microsoft Yahei", "微软雅黑", Tahoma, Arial, STHeiti, sans-serif;
+  _font-family: Tahoma, Arial, Helvetica, STHeiti, sans-serif;
+  
+}
+
+.main h1 em {
+	font-size: 50%;
+	letter-spacing: -0.05em;
+}
+
+.main h2 ,p{
+	margin: 0;
+    height:25px;
+	line-height:25px;
+	margin:10px 0;
+	padding-left:30px;
+    padding: 3px;
+	font-size:14px;
+	color:#333;
+}
+
+.main hr {
+	border: none;
+	height: 1px; line-height: 1px;
+	background: #D8D8D8;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+.main p {
+	
+	padding-bottom: 14px;
+}
+
+.main a {
+	outline: none;	
+}
+
+.sidebar  a:hover{
+	color: #000;
+	text-decoration:none;
+}
+
+.main a img {
+	border: 1px solid #BBB;
+	padding: 2px;	
+	margin: 10px 30px 10px 0;
+	vertical-align: top;
+}
+
+.main ul {
+	margin: -7px 0 24px 0;
+}
+
+
+
+/*个人简历style
+*/
+.setting-header {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  -moz-border-top-left-radius: 4px;
+  -moz-border-top-right-radius: 4px;
+  -webkit-border-top-left-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+  border: 1px solid #C6C8CB;
+  border-bottom: none;
+  box-shadow: inset 0 0 1px #dddfe1;
+  background: url(/img/sidemenu-item.$5106.png) repeat;
+  height: 30px;
+  padding: 10px 0;
+  line-height: 30px;
+  padding-left: 38px;
+  position: relative;
+  zoom: 1;
+}

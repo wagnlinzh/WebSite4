@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/login.css">
+
+
+    <script type="text/javascript" src="/js/freestyle_script.font.js"></script>
+
+    <script type="text/javascript">
+    Cufon.replace('h2', {fontFamily:'Freestyle Script', hover:true });        
+    </script>
+</head>
+
+
+<body>
+
+    <div id="startpage">
+       <h1 id="logo-startpage" style="padding-top: 33.6px;">
+        <span class="login-logo"> 
+            <a href="htpp://" >测试平台</a>
+        </span>
+    </h1>
+    <!--   Title Logo end -->
+    <div id="login-wrap" style="margin-top:-10%;">
+        <div id="login-form-wrap">
+            <form id="login-form" class="clearfix" action="" method="post">
+                <div class="input-wrap" id="input-login-email">
+                    <span class="input-icon"></span>
+                    <label style="display: none;">邮箱/手机号</label>
+                    <input class="startpage-input-text" type="text" name="account" value="">
+                </div>
+
+                <div class="input-wrap" id="input-login-pwd">
+                    <span class="input-icon"></span>
+                    <label style="display: none;">密码</label>
+                    <input class="startpage-input-text" type="password" name="password" value="">
+                    <div class="tip" style="display:none"></div>
+                </div>
+
+                <input type="hidden" name="nextUrl" value="">
+                <input type="hidden" name="lcallback" value="">
+                <input type="hidden" name="persistent" value="1" checked="checked">
+
+
+                <div id="ctrlbuttonlogin-submit" data-control="login-submit" class="ui-button skin-button-willblue" style="width: 283px;">
+                    <span class="ui-button-bg-left skin-button-willblue-bg-left"></span>
+                    <div id="ctrlbuttonlogin-submitlabel" class="ui-button-label skin-button-willblue-label">
+                        <span id="ctrlbuttonlogin-submittext" class="ui-button-text skin-button-willblue-text">登录</span>
+                    </div>
+                </div>            
+            </form>
+
+            <div id="login-help" class="clearfix">
+                <a href="" id="forget-password">忘记密码?&nbsp;&nbsp;&nbsp;&nbsp;</a>
+
+                <a href="" id="register-account">注册帐号</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="footer" style="bottom: 10px;">
+        <a href="http://">Copyright &copy 2014&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a class="footer-item" href="">Powered by wanglinzhizhi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a href="//http://about us">About us</a>
+    </div>
+
+</div>
+</body>
+</html>
